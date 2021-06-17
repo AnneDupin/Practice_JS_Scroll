@@ -1,0 +1,43 @@
+/* POLICE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: whitesmoke;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__fixed .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.scroll {
+    height: 2px;
+    margin-bottom: -2px;
+    background: aqua;
+    width: 0%;
+}
+
+.contenu {
+    padding: 100px 0;
+    margin: 0 auto;
+    /* width: 80px; */
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+    color: grey;
+    line-height: 40px;
+}
+
+p:hover {
+    color: rosybrown;
+}
